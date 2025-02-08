@@ -1,0 +1,32 @@
+.customized-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #0b2b4a;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.customized-title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.google-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+}
+
+.google-form-container iframe {
+    max-width: 100%;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    background: white;
+    border-radius: 4px;
+    overflow-x: hidden;
+}

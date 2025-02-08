@@ -1,0 +1,154 @@
+.project-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #0a192f;
+  min-height: 100vh;
+}
+
+.project-details-container h2 {
+  font-size: 2.5rem;
+  color: #64ffda;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.project-details-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  background: rgba(10, 25, 47, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-details-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project-details-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin: 0;
+}
+
+.project-details-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-details-image:hover {
+  transform: scale(1.02);
+}
+
+.project-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #64ffda;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(100, 255, 218, 0.1);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.project-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.action-button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-action {
+  background: #64ffda;
+  color: #0a192f;
+  border: none;
+}
+
+.primary-action:hover {
+  background: #4cd3ac;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(100, 255, 218, 0.2);
+}
+
+.secondary-action {
+  background: transparent;
+  color: #64ffda;
+  border: 2px solid #64ffda;
+}
+
+.secondary-action:hover {
+  background: rgba(100, 255, 218, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media screen and (max-width: 992px) {
+  .project-details-container {
+    padding: 1.5rem;
+  }
+
+  .project-details-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-details-container h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-details-container {
+    padding: 1rem;
+  }
+
+  .project-details-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-details-info p {
+    font-size: 1rem;
+  }
+
+  .project-actions {
+    flex-direction: column;
+  }
+
+  .action-button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-details-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-details-info p {
+    font-size: 0.9rem;
+  }
+
+  .project-price {
+    font-size: 1.2rem;
+  }
+}
