@@ -13,6 +13,7 @@ const Projects = () => {
   const categories = {
     all: 'All Projects',
     webDevelopment: 'Web Development',
+    softwareProjects: 'Software',
     aiMl: 'AI & ML Projects',
     dataScience: 'Data Science',
     cloudComputing: 'Cloud Computing'

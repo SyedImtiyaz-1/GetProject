@@ -124,6 +124,14 @@ const projects = {
       image: 'https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', 
       category: 'cloudComputing', 
       price: '₹2999' 
+    },
+    { 
+      id: 101, 
+      title: 'Automobile Inventory Management', 
+      description: 'Lorem', 
+      image: 'https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', 
+      category: 'softwareProjects', 
+      price: '₹2999' 
     }
   ]
 };
