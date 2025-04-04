@@ -199,7 +199,7 @@ const Home = () => {
                             </div>
                             <div className="contact-item">
                                 <FaWhatsapp />
-                                <a href="tel:7249545778"><span>7249545778</span></a>
+                                <a href="tel:7218404903"><span>7218404903</span></a>
                             </div>
                             <div className="contact-item">
                                 <FaEnvelope />
