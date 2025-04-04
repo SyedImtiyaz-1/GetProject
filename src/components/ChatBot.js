@@ -50,7 +50,7 @@ const ChatBot = () => {
 
   // WhatsApp redirect function
   const handleWhatsAppRedirect = () => {
-    const whatsappNumber = '+917249545778'; // Replace with your WhatsApp number
+    const whatsappNumber = '+917218404903'; 
     window.open(`https://wa.me/${whatsappNumber}`, '_blank');
   };
 
