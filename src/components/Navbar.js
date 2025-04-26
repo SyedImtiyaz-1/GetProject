@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">
         <FaProjectDiagram className="nav-icon" />
-        <h1>Get Project<span>We Accept PayPal for International Clients</h1>
+        <h1>Get Project<span>We Accept PayPal for International Clients</span></h1>
       </div>
       <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
         <FaBars />
