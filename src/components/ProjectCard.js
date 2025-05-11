@@ -36,7 +36,7 @@ const ProjectCard = ({ project }) => {
               </p>
               <p>
                 <i className="fas fa-whatsapp"></i> 
-                WhatsApp: <a href="https://wa.me/917249545778" target="_blank" rel="noopener noreferrer">+91 7249545778</a>
+                WhatsApp: <a href="https://wa.me/917218404903" target="_blank" rel="noopener noreferrer">+91 7218404903</a>
               </p>
               <p>
                 <i className="fas fa-envelope"></i> 
