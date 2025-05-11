@@ -9,6 +9,7 @@
   },
   "private": true,
   "dependencies": {
+    "@clerk/clerk-react": "^5.31.1",
     "@emailjs/browser": "^4.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
