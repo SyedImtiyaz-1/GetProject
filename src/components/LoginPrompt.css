@@ -45,4 +45,22 @@
 .login-prompt .login-button:hover {
   background: rgba(100, 255, 218, 0.1);
   transform: translateY(-2px);
+}
+
+.home-link {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.home-link p {
+  color: #64ffda;
+  margin: 0;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.home-link:hover p {
+  color: #fff;
+  transform: translateY(-2px);
 } 

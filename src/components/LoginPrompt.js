@@ -1,5 +1,6 @@
 import React from 'react';
 import { SignInButton } from '@clerk/clerk-react';
+import { Link } from 'react-router-dom';
 import './LoginPrompt.css';
 
 const LoginPrompt = () => {
@@ -11,6 +12,9 @@ const LoginPrompt = () => {
         <SignInButton mode="modal">
           <button className="login-button">Login Now</button>
         </SignInButton>
+        <Link to="/" className="home-link">
+          <p>Return to Home Page</p>
+        </Link>
       </div>
     </div>
   );

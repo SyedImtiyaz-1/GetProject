@@ -21,7 +21,6 @@ const Navbar = () => {
     if (!isSignedIn) {
       e.preventDefault();
       const signInButton = document.querySelector('.cl-signInButton');
-      alert("Please login first, to access the projects.")
       if (signInButton) {
         signInButton.click();
       }
@@ -31,8 +30,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <FaProjectDiagram className="nav-icon" />
-        <h1>Get Project</h1>
+        <Link to="/" className="brand-link">
+          <FaProjectDiagram className="nav-icon" />
+          <h1>Get Project</h1>
+        </Link>
       </div>
       <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
         <FaBars />
